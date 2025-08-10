@@ -4,9 +4,21 @@
 
 Beer Pixel Game is a retro-style brewing adventure game built as a full-stack web application. Players take on the role of beer connoisseurs who can brew legendary beers, trade with other players, compete in seasonal tournaments, and collect rare ingredients. The game features a pixel art aesthetic with a comprehensive brewing simulation, player progression system, and competitive elements.
 
+## Recent Changes
+
+**January 10, 2025** - Deployment Preparation:
+- Added Railway deployment configuration (Dockerfile, nixpacks.toml, railway.json)
+- Updated database configuration for cloud PostgreSQL with SSL support
+- Added health check endpoint for deployment monitoring
+- Created comprehensive deployment instructions (DEPLOYMENT.md)
+- Enhanced .gitignore for production deployment
+- Configured environment variables for cloud hosting
+
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+Project approach: Follow user's fixed phase plan, not independent feature additions.
+Deployment preference: Railway with cloud-hosted PostgreSQL (Supabase/Neon).
 
 ## System Architecture
 

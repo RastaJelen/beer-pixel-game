@@ -36,6 +36,11 @@ app.use((req, res, next) => {
   next();
 });
 
+// Add health check endpoint for Railway
+app.get('/health', (req, res) => {
+  res.status(200).json({ status: 'healthy', timestamp: new Date().toISOString() });
+});
+
 (async () => {
   const server = await registerRoutes(app);
 
